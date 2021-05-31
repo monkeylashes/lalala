@@ -9,15 +9,16 @@ public class Bear : Predetor
     {
         base.Start();
         Ai = new PredetorAi(this);
-        //this.Diet.Add("sheep");
-        //this.Diet.Add("rabbit");
+       
         Diet.Add("wolf");
+        Diet.Add("sheep");
+        Diet.Add("rabbit");
         tag = "bear";
         
         //GetComponent<Renderer>().material.SetColor("_Color", Color.black);
         Speed = 125.0f;
         ChaseSpeed = 200.4f;
-        StarvationLimit = 400f;
+        StarvationLimit = 100f;
         nutrition = 7.5f;
     }
 

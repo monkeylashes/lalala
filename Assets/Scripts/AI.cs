@@ -40,7 +40,7 @@ public abstract class AI
     public void Process()
     {
 
-        //entity.transform.GetChild(0).gameObject.GetComponent<TextMeshPro>().SetText(currentState.ToString() + " " + (int)entity.Hunger + "/" + (int)entity.StarvationLimit);
+        // entity.transform.GetChild(0)?.gameObject.GetComponent<TextMeshPro>()?.SetText(currentState.ToString() + " " + (int)entity.Hunger + "/" + (int)entity.StarvationLimit);
 
         CheckDanger();
 

@@ -15,7 +15,7 @@ public class Wolf : Predetor
         tag = "wolf";
         //GetComponent<Renderer>().material.SetColor("_Color", new Color(.7f,.7f,.7f, 1f));
         Speed = 135.0f;
-        ChaseSpeed = 189.6f;
+        ChaseSpeed = 200.6f;
         StarvationLimit = 210f;
         nutrition = 12f;
     }
